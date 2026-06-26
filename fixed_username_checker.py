@@ -125,6 +125,7 @@ def main():
 
     for name in names:
         check(name)
+        sleep(0.5)
 
     log("[DONE] Finished all checks")
 
